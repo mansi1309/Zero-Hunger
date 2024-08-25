@@ -1,36 +1,9 @@
 # Food Donation Management System
 
-A web application which is useful for management of food donation and collection activities.  
-[View Demo](https://food-aid.onrender.com/)
+![image](https://github.com/user-attachments/assets/e50dece6-6011-4522-9d77-d19ed595f183)
 
-<img src="https://user-images.githubusercontent.com/86913048/226953269-e6ae0484-ab78-4c77-b199-aef793502d8d.png" width="70%">
 
-## Table of Contents
 
-- [Installation and setup](#installation-and-setup)
-- [Features](#features)
-- [Technologies used](#technologies-used)
-- [npm packages used](#npm-packages-used)
-- [Prerequisites](#prerequisites)
-- [Useful Links](#useful-links)
-- [Contact](#contact)
-
-## Installation and Setup
-
-1. Install all the dependencies
-   ```sh
-   npm install
-   ```
-2. Create a file named ".env" and enter the following credentials:
-   ```js
-   MONGO_URI = yourmongouri;
-   ```
-3. Run the web application
-   ```sh
-   npm start
-   ```
-4. Open http://localhost:5000
-5. You need to first signup and then login to run the application.
 
 ## Features
 
@@ -50,6 +23,12 @@ A web application which is useful for management of food donation and collection
 - Donors can also view all their past donations.
 - Donors can update their profile.
 
+  ![image](https://github.com/user-attachments/assets/955b5cbe-8db2-4933-b29d-00386abf9669)
+
+  ![image](https://github.com/user-attachments/assets/a14800af-7bfa-4bbd-ae1a-c5b7e8ada66d)
+
+  ![image](https://github.com/user-attachments/assets/8eef492b-79da-4865-82e9-d7b321b85b35)
+
 ### Admin Features
 
 - Admins receive all the requests made by donors.
@@ -60,12 +39,25 @@ A web application which is useful for management of food donation and collection
 - Admins can also view all the agents in the application.
 - Admins can update their profile.
 
+  ![image](https://github.com/user-attachments/assets/83b8007f-352c-498e-9f2b-84a8026a083f)
+
+  ![image](https://github.com/user-attachments/assets/e4164e30-a1ae-4750-ba5e-979f1c513ba1)
+
 ### Agent Features
 
 - Agents will receive notifications from admins to collect food from donor's homes.
 - Agents can mark their collection upon collection of food from donor's home.
 - Agents can also view all those food donations which have been collected by them previously.
 - Agents can update their profile.
+  ![image](https://github.com/user-attachments/assets/a351cec6-6add-4285-9440-7a4b912ee556)
+  ![image](https://github.com/user-attachments/assets/4c0bfc26-1f8d-4c7e-a4ee-42e72c497373)
+
+### Store data in Mongodb
+![image](https://github.com/user-attachments/assets/9bc487e8-f6bf-40f0-a1a2-d53a05e51807)
+
+![image](https://github.com/user-attachments/assets/41ad0067-6299-46d1-9d95-46bd22792f4d)
+
+
 
 ## Technologies used
 
@@ -92,33 +84,7 @@ A web application which is useful for management of food donation and collection
 - method-override
 - dotenv
 
-## Prerequisites
 
-For running the application:
 
-- Node.js must be installed on the system.
-- You should have a MongoDB database.
-- You should have a code editor (preferred: VS Code)
 
-## Useful Links
 
-- Demo: https://food-aid-aayush.herokuapp.com/
-- Github Repo: https://github.com/aayush301/Food-donation-management-system
-- Nodejs download: https://nodejs.org/
-- VS Code download: https://code.visualstudio.com/
-- Tutorials: https://www.w3schools.com/
-- npmjs docs: https://docs.npmjs.com/
-- Expressjs docs: https://expressjs.com/
-- Bootstrap docs: https://getbootstrap.com/docs/5.1/getting-started/introduction/
-- Mongoosejs docs: https://mongoosejs.com/docs/index.html
-- Mongodb atlas: https://www.mongodb.com/cloud/atlas/register
-- Mongodb docs: https://docs.mongodb.com/manual/introduction/
-- Nodemailer docs: https://nodemailer.com/
-- Github docs: https://docs.github.com/en/get-started/quickstart/hello-world
-- Git cheatsheet: https://education.github.com/git-cheat-sheet-education.pdf
-- VS Code keyboard shortcuts: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
-
-## Contact
-
-- Email: aayush5521186@gmail.com
-- Linkedin: https://www.linkedin.com/in/aayush12/
